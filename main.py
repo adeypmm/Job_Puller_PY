@@ -18,8 +18,8 @@ google_app_password = os.getenv("GOOGLE_PASSWORD")
 M_DAT_FILE = "m_previous_data.dat"
 D_DAT_FILE = "d_previous_data.dat"
 
-sender = "adejobnotifs@gmail.com"
-receiver = "adeypmm@gmail.com"
+sender = os.getenv("SENDER")
+receiver = os.getenv("RECEIVER")
 
 job_keywords = ["growth", "data", "analyst", "marketing"]
 
